@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indexer-test", "indexer-test\indexer-test.csproj", "{9E999A7B-4734-441A-9923-6C71DC852BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indexer-test", "indexer-test\indexer-test.csproj", "{9E999A7B-4734-441A-9923-6C71DC852BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thread-test", "thread-test\thread-test.csproj", "{74AE9AF5-D7F8-41E4-8C89-0F58F1FBA3B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{9E999A7B-4734-441A-9923-6C71DC852BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E999A7B-4734-441A-9923-6C71DC852BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E999A7B-4734-441A-9923-6C71DC852BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AE9AF5-D7F8-41E4-8C89-0F58F1FBA3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AE9AF5-D7F8-41E4-8C89-0F58F1FBA3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AE9AF5-D7F8-41E4-8C89-0F58F1FBA3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AE9AF5-D7F8-41E4-8C89-0F58F1FBA3B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3723FC9-9E02-4439-AD07-DBEC1BE3788C}
 	EndGlobalSection
 EndGlobal
